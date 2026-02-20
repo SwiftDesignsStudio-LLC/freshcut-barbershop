@@ -1,0 +1,115 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  background:#0b1622;
+  color:white;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 60px;
+  background:#07111a;
+}
+
+.navbar a{
+  color:white;
+  margin-left:25px;
+  text-decoration:none;
+}
+
+.hero{
+  height:85vh;
+  background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)),
+  url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438');
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:52px;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 30px;
+  background:#2ea3ff;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.services{
+  padding:80px 60px;
+  text-align:center;
+}
+
+.service-grid{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  margin-top:40px;
+}
+
+.card{
+  background:#0f2233;
+  padding:30px;
+  border-radius:12px;
+  width:260px;
+}
+
+.gallery{
+  padding:80px;
+  text-align:center;
+}
+
+.gallery-grid{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top:40px;
+}
+
+.box{
+  width:250px;
+  height:250px;
+  background:#1a2f44;
+  border-radius:10px;
+}
+
+.booking{
+  padding:80px;
+  text-align:center;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  max-width:400px;
+  margin:auto;
+}
+
+input, textarea{
+  padding:12px;
+  border-radius:8px;
+  border:none;
+}
+
+button{
+  padding:14px;
+  background:#2ea3ff;
+  color:white;
+  border:none;
+  border-radius:8px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#07111a;
+}
